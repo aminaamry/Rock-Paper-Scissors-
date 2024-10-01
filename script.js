@@ -132,6 +132,8 @@ function isGameOver() {
         humanSign.textContent = "✌";
         break;
     }
+
+    
     switch (computerChoice) {
       case "rock":
         computerSign.textContent = "✊";
@@ -156,3 +158,4 @@ function isGameOver() {
     humanSign.textContent = "❔";
     computerSign.textContent = "❔";
   }
+
